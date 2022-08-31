@@ -1,11 +1,7 @@
 from random import choice
 
 
-def ganar(palabra_descubierta, letras_correctas):
-    mostrar_nuevo_tablero(palabra_descubierta, letras_correctas)
-    print("Felicitaciones, has encontrado la palabra!!!")
 
-    return True
 
 def elegir_palbra(lista_palabras):
     palabra_elegida = choice(lista_palabras)
@@ -76,4 +72,8 @@ def perder(palabra):
     print("La palabra oculta era " + palabra)
 
     return True
+def ganar(palabra_descubierta, letras_correctas):
+    mostrar_nuevo_tablero(palabra_descubierta, letras_correctas)
+    print("Felicitaciones, has encontrado la palabra!!!")
 
+    return True

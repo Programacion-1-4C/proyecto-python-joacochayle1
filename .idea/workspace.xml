@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3625a3d-17e2-44c3-a966-3ade9ca0c9d1" name="Changes" comment="Subo mi programa de programacion" />
+    <list default="true" id="b3625a3d-17e2-44c3-a966-3ade9ca0c9d1" name="Changes" comment="Subo mi programa de programacion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Funciones_ahorcado.py" beforeDir="false" afterPath="$PROJECT_DIR$/Funciones_ahorcado.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Juego_Ahorcado.py" beforeDir="false" afterPath="$PROJECT_DIR$/Juego_Ahorcado.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661945989829</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Subo mi programa de programacion">
+      <created>1661946204449</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661946204449</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

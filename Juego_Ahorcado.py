@@ -12,11 +12,6 @@ palabra, letras_unicas = elegir_palbra(palabras)
 
 
 
-
-
-
-
-
 while not juego_terminado:
     print('\n' + '*' * 20 + '\n')
     pistas_palabras(palabra)
