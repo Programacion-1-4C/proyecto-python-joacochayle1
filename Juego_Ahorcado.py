@@ -11,14 +11,6 @@ juego_terminado = False
 palabra, letras_unicas = elegir_palbra(palabras)
 
 
-def chequear_letra(letra_elegida, palabra_oculta, vidas, coincidencias):
-    if letra_elegida in palabra_oculta:
-        letras_correctas.append(letra_elegida)
-        coincidencias += 1
-    else:
-        letras_incorrectas.append(letra_elegida)
-        vidas -= 1
-    return vidas, coincidencias
 
 
 
@@ -35,7 +27,7 @@ while not juego_terminado:
     print('\n' + '*' * 20 + '\n')
     letra = pedir_letra(letras_correctas)
 
-    intentos, aciertos = chequear_letra(letra, palabra, intentos, aciertos)
+    intentos, aciertos = chequear_letra(letra, palabra, intentos, aciertos, letras_correctas, letras_incorrectas)
     if intentos==0:
         juego_terminado=perder(palabra)
     elif aciertos==letras_unicas:

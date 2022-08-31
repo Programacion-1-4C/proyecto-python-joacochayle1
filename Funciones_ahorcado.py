@@ -1,10 +1,4 @@
 from random import choice
-palabras = ['panadero', 'dinosaurio', 'helipuerto', 'tiburon','cars','meteoro']
-letras_correctas=[]
-letras_incorrectas=[]
-intentos = 10
-aciertos = 0
-juego_terminado = False
 
 
 def ganar(palabra_descubierta, letras_correctas):
@@ -67,7 +61,7 @@ def mostrar_nuevo_tablero(palabra_elegida, letras_correctas):
 
     print(' '.join(lista_oculta))
 
-def chequear_letra(letra_elegida, palabra_oculta, vidas, coincidencias):
+def chequear_letra(letra_elegida, palabra_oculta, vidas, coincidencias, letras_correctas, letras_incorrectas):
     if letra_elegida in palabra_oculta:
         letras_correctas.append(letra_elegida)
         coincidencias += 1
