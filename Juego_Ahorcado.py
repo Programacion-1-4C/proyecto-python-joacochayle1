@@ -1,5 +1,5 @@
 from Funciones_ahorcado import pistas_palabras , elegir_palbra, pedir_letra, mostrar_nuevo_tablero, chequear_letra
-palabras = ['panadero', 'dinosaurio', 'helipuerto', 'tiburon','cars','meteoro']
+palabras = ['panadero', 'dinosaurio', 'helipuerto', 'tiburon','cars','meteoro', 'biologia']
 letras_correctas = []
 letras_incorrectas = []
 intentos = 10
